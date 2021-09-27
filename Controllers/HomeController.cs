@@ -26,6 +26,7 @@ namespace SIITUniversity.Controllers
                            EnrollmentDate = dateGroup.Key,
                            StudentCount = dateGroup.Count()
                        };
+            //
 
             return View(data.ToList());
         }
